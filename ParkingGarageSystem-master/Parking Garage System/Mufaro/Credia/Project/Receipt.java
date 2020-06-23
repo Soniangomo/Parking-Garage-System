@@ -11,7 +11,7 @@ public class Receipt extends Printable {
     @Override
     public String printOut() {
         return "---YOUR RECEIPT---\n" + "PLATE #: " + getLicensePlate() + EOL_STRING + "PAYMENT TYPE: "
-                + getPaymentScheme() + EOL_STRING + "THANK YOU! PARK AGAIN SOON";
+                + getPaymentScheme() + EOL_STRING + "THANK YOU! PARK YOU CAR,MOTORCYCLE WITH US AGAIN SOON";
     }
 
 }

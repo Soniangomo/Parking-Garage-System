@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class Manager {
 
     private TreeMap attendantTree;
-    final String[] NAMES = {"John", "Mark", "Sarah", "Maria", "Kevin", "Theresa"};
+    final String[] NAMES = {"FIDEL", "ANTHONY", "MARIE", "MUFARO", "EVA", "PITTER"};
 
     public Manager() {
         attendantTree = new TreeMap();
