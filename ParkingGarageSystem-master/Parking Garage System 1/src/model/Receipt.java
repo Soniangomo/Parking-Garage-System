@@ -14,7 +14,7 @@ public class Receipt extends Printable {
 	public String printOut() {
 		return "---YOUR RECEIPT---\n" + "PLATE #: " + getLicensePlate() + EOL_STRING + "ATTENDANT: "
 				+ getAttendantName() + EOL_STRING + "TIME PARKED: " + getTime() + EOL_STRING + "PAYMENT TYPE: "
-				+ getPaymentScheme() + EOL_STRING + "THANK YOU! PARK AGAIN SOON";
+				+ getPaymentScheme() + EOL_STRING + "THANK YOU! PARK YOU CAR,MOTOCYCLE WIT US AGAIN SOON";
 	}
 
 }

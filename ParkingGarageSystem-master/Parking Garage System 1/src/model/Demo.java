@@ -4,7 +4,7 @@ public class Demo {
 	public static void main(String[] args) {
 
 		// Ticket Testing
-		Ticket ticket = new Ticket("HHE6555", "Katie", "Hourly");
+		Ticket ticket = new Ticket("HHE6555", "Sonia", "Monthly");
 		Receipt receipt = new Receipt(ticket);
 		System.out.println(ticket.printOut());
 		System.out.println();
@@ -12,10 +12,10 @@ public class Demo {
 
 		// Manager/Attendant Testing
 		Manager manager = new Manager();
-		Attendant attendant = manager.createAttendant("Susan");
+		Attendant attendant = manager.createAttendant("Mufaro");
 		System.out.println(attendant.getName());
-		manager.deleteAttendant("Susan");
-		System.out.println(manager.hasAttendant("Susan"));
+		manager.deleteAttendant("Mufaro");
+		System.out.println(manager.hasAttendant("Mufaro"));
 
 		// Vehicle Testing
 		Vehicle car = new Truck("PLATE1");
